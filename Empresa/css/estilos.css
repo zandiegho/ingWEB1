@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: black;
+}
+
+.superior {
+	background: green;
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	padding: 20px;
+}
+
+.container{
+	width: 1200px;
+	margin: 10px auto;
+}
+
+.menu {
+	float: left;
+	padding: 50px;
+	font-size: 20px;
+}
+
+.opciones li{
+	float: left;
+	list-style: none;
+}
+
+.opciones li a{
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.opciones li a:hover{
+	background: black;
+}
+
+.sliders{
+	/*border: 1px solid white;*/
+    align-content: center;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 1200px;
+  height: 400px;
+  align-content: center;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#000;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menuSlider{
+  text-align: center;
+  margin: 20px;
+}
+
+.menuSlider li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menuSlider li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: green;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.map{
+text-align: center;
+color: blanchedalmond;
+}
+
+.inferior{
+    background: green;
+	overflow: hidden;
+}
+
+.descripcion{
+    float: left;
+	width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.logo_VinserPie{
+    align-content: center;
+}
+
+
+.logos_RedesPie{
+    float: left;
+    padding: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.bydieghorico{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+
